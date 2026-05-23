@@ -9,9 +9,9 @@ export function Hero() {
         alt=""
         width={1920}
         height={1080}
-        className="absolute inset-0 w-full h-full object-cover opacity-40"
+        className="absolute inset-0 w-full h-full object-cover opacity-70"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/30 to-background pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/20 to-background pointer-events-none" />
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-secondary/30 blur-[120px] animate-pulse-glow pointer-events-none" />
 
       <div className="container relative mx-auto px-5 text-center">
