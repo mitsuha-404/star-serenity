@@ -178,6 +178,22 @@
   .animate-float { animation: float-slow 8s ease-in-out infinite; }
   .animate-pulse-glow { animation: pulse-glow 4s ease-in-out infinite; }
   .animate-fade-up { animation: fade-up 0.8s ease-out both; }
+  .input-base {
+    width: 100%;
+    background: oklch(0.1 0.04 305 / 0.6);
+    border: 1px solid var(--glass-border);
+    border-radius: 0.875rem;
+    padding: 0.875rem 1rem;
+    color: var(--color-foreground);
+    font-size: 0.95rem;
+    transition: all 0.2s;
+    outline: none;
+  }
+  .input-base::placeholder { color: oklch(0.6 0.02 300 / 0.7); }
+  .input-base:focus {
+    border-color: var(--gold);
+    box-shadow: 0 0 0 3px oklch(0.78 0.13 86 / 0.15);
+  }
   .shimmer-text {
     background: linear-gradient(90deg, var(--gold) 0%, oklch(1 0 0) 50%, var(--gold) 100%);
     background-size: 200% auto;
